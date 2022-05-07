@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF878C9D282519DA00884F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF878C9C282519DA00884F72 /* AppDelegate.swift */; };
+		FF878C9F282519DA00884F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF878C9E282519DA00884F72 /* SceneDelegate.swift */; };
+		FF878CA1282519DA00884F72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF878CA0282519DA00884F72 /* ViewController.swift */; };
+		FF878CA4282519DA00884F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF878CA2282519DA00884F72 /* Main.storyboard */; };
+		FF878CA6282519DC00884F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF878CA5282519DC00884F72 /* Assets.xcassets */; };
+		FF878CA9282519DC00884F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF878CA7282519DC00884F72 /* LaunchScreen.storyboard */; };
+		FF878CD228251D3500884F72 /* EADSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF878CCC28251D3400884F72 /* EADSessionController.m */; };
+		FF878CD328251D3500884F72 /* GSGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF878CCF28251D3400884F72 /* GSGameController.m */; };
+		FF878CD428251D3500884F72 /* GSGameControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF878CD028251D3400884F72 /* GSGameControllerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF878C99282519DA00884F72 /* MFiGamepadTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFiGamepadTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF878C9C282519DA00884F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF878C9E282519DA00884F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF878CA0282519DA00884F72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF878CA3282519DA00884F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF878CA5282519DC00884F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF878CA8282519DC00884F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF878CAA282519DC00884F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF878CC628251D2800884F72 /* MFiGamepadTesting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MFiGamepadTesting-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF878CCC28251D3400884F72 /* EADSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EADSessionController.m; sourceTree = "<group>"; };
+		FF878CCD28251D3400884F72 /* EADSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EADSessionController.h; sourceTree = "<group>"; };
+		FF878CCE28251D3400884F72 /* GSGameControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGameControllerManager.h; sourceTree = "<group>"; };
+		FF878CCF28251D3400884F72 /* GSGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGameController.m; sourceTree = "<group>"; };
+		FF878CD028251D3400884F72 /* GSGameControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGameControllerManager.m; sourceTree = "<group>"; };
+		FF878CD128251D3400884F72 /* GSGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGameController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF878C96282519DA00884F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF878C90282519DA00884F72 = {
+			isa = PBXGroup;
+			children = (
+				FF878C9B282519DA00884F72 /* MFiGamepadTesting */,
+				FF878C9A282519DA00884F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF878C9A282519DA00884F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF878C99282519DA00884F72 /* MFiGamepadTesting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF878C9B282519DA00884F72 /* MFiGamepadTesting */ = {
+			isa = PBXGroup;
+			children = (
+				FF878CCA28251D3400884F72 /* MFi */,
+				FF878C9C282519DA00884F72 /* AppDelegate.swift */,
+				FF878C9E282519DA00884F72 /* SceneDelegate.swift */,
+				FF878CA0282519DA00884F72 /* ViewController.swift */,
+				FF878CA2282519DA00884F72 /* Main.storyboard */,
+				FF878CA5282519DC00884F72 /* Assets.xcassets */,
+				FF878CA7282519DC00884F72 /* LaunchScreen.storyboard */,
+				FF878CAA282519DC00884F72 /* Info.plist */,
+				FF878CC628251D2800884F72 /* MFiGamepadTesting-Bridging-Header.h */,
+			);
+			path = MFiGamepadTesting;
+			sourceTree = "<group>";
+		};
+		FF878CCA28251D3400884F72 /* MFi */ = {
+			isa = PBXGroup;
+			children = (
+				FF878CCB28251D3400884F72 /* Lightning */,
+				FF878CD128251D3400884F72 /* GSGameController.h */,
+				FF878CCF28251D3400884F72 /* GSGameController.m */,
+				FF878CCE28251D3400884F72 /* GSGameControllerManager.h */,
+				FF878CD028251D3400884F72 /* GSGameControllerManager.m */,
+			);
+			path = MFi;
+			sourceTree = "<group>";
+		};
+		FF878CCB28251D3400884F72 /* Lightning */ = {
+			isa = PBXGroup;
+			children = (
+				FF878CCD28251D3400884F72 /* EADSessionController.h */,
+				FF878CCC28251D3400884F72 /* EADSessionController.m */,
+			);
+			path = Lightning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF878C98282519DA00884F72 /* MFiGamepadTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF878CAD282519DD00884F72 /* Build configuration list for PBXNativeTarget "MFiGamepadTesting" */;
+			buildPhases = (
+				FF878C95282519DA00884F72 /* Sources */,
+				FF878C96282519DA00884F72 /* Frameworks */,
+				FF878C97282519DA00884F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFiGamepadTesting;
+			productName = MFiGamepadTesting;
+			productReference = FF878C99282519DA00884F72 /* MFiGamepadTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF878C91282519DA00884F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FF878C98282519DA00884F72 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = FF878C94282519DA00884F72 /* Build configuration list for PBXProject "MFiGamepadTesting" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF878C90282519DA00884F72;
+			productRefGroup = FF878C9A282519DA00884F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF878C98282519DA00884F72 /* MFiGamepadTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF878C97282519DA00884F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF878CA9282519DC00884F72 /* LaunchScreen.storyboard in Resources */,
+				FF878CA6282519DC00884F72 /* Assets.xcassets in Resources */,
+				FF878CA4282519DA00884F72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF878C95282519DA00884F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF878CA1282519DA00884F72 /* ViewController.swift in Sources */,
+				FF878C9D282519DA00884F72 /* AppDelegate.swift in Sources */,
+				FF878C9F282519DA00884F72 /* SceneDelegate.swift in Sources */,
+				FF878CD328251D3500884F72 /* GSGameController.m in Sources */,
+				FF878CD228251D3500884F72 /* EADSessionController.m in Sources */,
+				FF878CD428251D3500884F72 /* GSGameControllerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF878CA2282519DA00884F72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF878CA3282519DA00884F72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF878CA7282519DC00884F72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF878CA8282519DC00884F72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF878CAB282519DC00884F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF878CAC282519DC00884F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF878CAE282519DD00884F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V8DDU6RFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MFiGamepadTesting/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MFi Controller";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MFiGamepadTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GameSirAll20211223;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MFiGamepadTesting/MFiGamepadTesting-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF878CAF282519DD00884F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V8DDU6RFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MFiGamepadTesting/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MFi Controller";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MFiGamepadTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GameSirAll20211223;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MFiGamepadTesting/MFiGamepadTesting-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF878C94282519DA00884F72 /* Build configuration list for PBXProject "MFiGamepadTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF878CAB282519DC00884F72 /* Debug */,
+				FF878CAC282519DC00884F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF878CAD282519DD00884F72 /* Build configuration list for PBXNativeTarget "MFiGamepadTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF878CAE282519DD00884F72 /* Debug */,
+				FF878CAF282519DD00884F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF878C91282519DA00884F72 /* Project object */;
+}
